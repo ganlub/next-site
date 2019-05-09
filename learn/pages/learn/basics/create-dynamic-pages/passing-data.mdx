@@ -43,7 +43,7 @@ Create a file called `pages/post.js` and add the following content:
 
 ```js
 import { withRouter } from 'next/router'
-import Layout from '../components/MyLayout.js'
+import Layout from '../components/MyLayout'
 
 const Page = withRouter(props => (
   <Layout>
@@ -71,7 +71,7 @@ Let's do a simple modification to our app. Replace the content of the “pages/p
 
 ```js
 import { withRouter } from 'next/router'
-import Layout from '../components/MyLayout.js'
+import Layout from '../components/MyLayout'
 
 const Content = props => (
   <div>
